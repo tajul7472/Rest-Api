@@ -55,21 +55,12 @@ function App() {
       console.log(err)
     })
 
-    setTimeout(()=>{
+    setTimeout(() => {
       loadData();
-    },500)
+    }, 500)
   }
 
-
-
-
-
-  
-
   return (
-
-
-
 
     <div className="App">
       <div>
